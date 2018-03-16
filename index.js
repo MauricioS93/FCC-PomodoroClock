@@ -23,4 +23,4 @@ function countdown(minutes) {
   countMin();
 }
 
-countdown(1);
+// countdown(1);
