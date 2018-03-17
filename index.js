@@ -1,5 +1,21 @@
 let element = document.getElementById('status');
 let counter = document.getElementById("show");
+let add1 = document.querySelector(".add1");
+let add2 = document.querySelector(".add2");
+let minus1 = document.querySelector(".minus1");
+let minus2 = document.querySelector(".minus2");
+let setMin = document.querySelector(".setMin");
+let setRest = document.querySelector(".setRest");
+
+let currentMin = setMin.value + 1;
+add1.addEventListener('click', ()=>{
+  setMin.value = currentMin++;
+  console.log(currentMin - 1);
+});
+
+
+
+
 
 function countdown(minutes) {
   let sec = 60;
@@ -22,5 +38,3 @@ function countdown(minutes) {
   }
   countMin();
 }
-
-// countdown(1);

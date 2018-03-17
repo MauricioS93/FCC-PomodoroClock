@@ -13,11 +13,19 @@ body {
 .buttons {
   text-align: center;
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .btn {
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+  padding: 8px;
+  border: 2px solid black;
+  border-radius: 50%;
   outline: none;
-  
+  text-align: center;
 }
 
 .output {
@@ -31,4 +39,11 @@ body {
 
 div#show {
   font-size: 60px;
+  position: relative;
+  top: -30px;
+}
+
+div#status {
+  position: relative;
+  top: -50px;
 }

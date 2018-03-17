@@ -8,15 +8,25 @@
 <body>
   <div class="container">
     <div class="buttons">
-      <button class="minutes btn">Minutes</button>
-      <button class="rest btn">Rest</button>
+      <div class="btn-cont">
+        <div class="add1"><i class="fas fa-plus"></i></div>
+        <input type="text" class="setMin btn" value="0"></input>
+        <div class="minus1"><i class="fas fa-minus"></i></div>
+      </div>
+      <div class="btn-cont">
+        <div class="add2"><i class="fas fa-plus"></i></div>
+        <input type="text" class="setRest btn" value="0"></input>
+        <div class="minus2"><i class="fas fa-minus"></i></div>
+      </div>
     </div>
+
     <div class="output">
       <div id="status">Done, bye</div>
       <div id="show">20:20</div>
     </div>
   </div>
   
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   <script src="index.js"></script>
 </body>
 </html>
